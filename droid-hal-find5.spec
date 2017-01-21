@@ -15,4 +15,7 @@
 /wlan.rle\
 %{nil} 
 
+#For OTA
+%define enable_kernel_update 1
+
 %include rpm/dhd/droid-hal-device.inc
